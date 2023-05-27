@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    background: transparent;
+    box-shadow: 3px 9px 21px 6px rgba(0,0,0,0.75);
+    font-size: 75px;
+    border-radius: 20px;
+}
+
+.box{
+    box-shadow: 3px 9px 21px 0px rgba(5,5,5, .9);
+    text-align: center;
+    color: orange;
+    border-radius: 7px;
+    max-width: 20%;
+    flex: 1;
+
+}
+
+#next{
+    color: orange;
+    margin: 0px 20px;
+}
+
+.tempo{
+    font-size: 20px;
+}
+
+
+
+
+@media(max-width: 600px){
+    .relogio{
+        max-width: 300px;
+        font-size: 50px;
+        height: 100px;
+    }
+
+    .tempo{
+        font-size: 11px;
+    }
+}
